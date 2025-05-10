@@ -121,10 +121,10 @@ justify-content: space-around;
     background: url(../img/icons/plus.svg);
 }
 .icon-play::before{
-    background: url(/img/icons/play.svg);
+    background: url(../img/icons/play.svg);
 }
 .icon-info::before{
-    background: url(/img/icons/info.svg);
+    background: url(../img/icons/info.svg);
 }
 .footer{
     position: sticky;
