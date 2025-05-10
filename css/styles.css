@@ -48,8 +48,7 @@ justify-content: space-around;
 .featured{
     margin-top: -90px;
     position: relative;
-    overflow: hidden;
-    background: red;
+    overflow: hidden;  
     
 }
 .featured-details{
