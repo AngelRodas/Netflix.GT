@@ -49,6 +49,7 @@ justify-content: space-around;
     margin-top: -90px;
     position: relative;
     overflow: hidden;
+    background: red;
     
 }
 .featured-details{
