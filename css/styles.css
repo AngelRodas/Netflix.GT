@@ -118,7 +118,7 @@ justify-content: space-around;
 
 }
 .icon-plus::before{
-    background: url(/img/icons/plus.svg);
+    background: url(../img/icons/plus.svg);
 }
 .icon-play::before{
     background: url(/img/icons/play.svg);
