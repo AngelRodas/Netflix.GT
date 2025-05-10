@@ -120,12 +120,7 @@ justify-content: space-around;
 .icon-plus::before{
     background: url(../img/icons/plus.svg);
 }
-.icon-play::before{
-    background: url(../img/icons/play.svg);
-}
-.icon-info::before{
-    background: url(../img/icons/info.svg);
-}
+
 .footer{
     position: sticky;
     bottom: 0;
