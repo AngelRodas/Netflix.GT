@@ -1,0 +1,76 @@
+/* solo info del tipo de texto*/
+@font-face{
+    font-family: 'Netflix';
+    src:url(../font/AvenirNextCondensed.ttc);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Netflix';
+    src:url(../font/AvenirNext.ttc);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Netflix';
+    src:url(../font/Avenir.ttc);
+    font-weight: 700;
+    font-style: normal;
+}
+/*cuerpo en general de la pagina */
+body{
+    background: black;
+    color: white;
+    margin: 0;
+    font-family: 'Netflix';
+}
+/*para que las etiquetas a no tengan detalles como el del subrayado*/
+a{
+    color: white;
+    text-decoration: none;
+}
+/* Informacion del encabezado*/
+.header{
+    padding: 10px 5px 5px;
+    position: relative;
+    z-index: 2;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: black;
+}
+/*pie de pagina estilo y color de iconos*/
+.footer{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1em 0;
+    background: black;
+    
+}
+.tab-list{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    list-style: none;
+    color: #6e6e6e;
+}
+.tab-list a{
+    color: #6e6e6e;
+}
+.tab-item{
+    text-align: center;
+    font-size: .9em;
+}
+.tab-item path{
+    fill: #6e6e6e; 
+}
+.tab-item svg{
+    display: block;
+    margin: auto;
+}
+.tab-item:hover :is(path,span){
+    fill: white;
+    color: white;
+}
