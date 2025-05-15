@@ -74,3 +74,55 @@ a{
     fill: white;
     color: white;
 }
+.titulo{
+  font-weight: bold; /* Para poner en negrita */
+  font-size: 60px; 
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.porcentaje{
+    color: rgb(112, 179, 112);
+    
+}
+.info{
+    display: flex;
+    gap: 15px;
+    color: #6e6e6e;
+    position: relative;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.calidad{
+  color: white;
+  border: 1px solid white; 
+  padding: 2px 2px;         
+  border-radius: 1px; 
+}
+.categoria{
+  color: white;
+  background-color: #6e6e6e;
+  padding: 2px 2px;         
+  border-radius: 1px; 
+}
+/* para que los textos se adapten a la pantalla */
+@media screen and (min-width: 768px) {
+  .titulo {
+    font-size: 90px;
+    margin-left: 40px;
+  }
+
+  .info {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  .calidad,
+  .categoria {
+    padding: 4px 6px;
+    font-size: 18px;
+  }
+
+  .porcentaje {
+    font-size: 20px;
+  }
+}
