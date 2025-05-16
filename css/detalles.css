@@ -173,7 +173,7 @@ a{
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  margin: 15px;
+  margin: 0 15px 5px 15px;
 }
 .barra-roja {
   height: 4px;
@@ -185,6 +185,34 @@ a{
   font-size: 40px;
   font-weight: bold;
   margin: 15px 0 5px 0;
+}
+/* mas titulos similares */
+.list-content{
+    white-space: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+    margin: 0 15px 5px 15px;
+}
+.list-item{
+    display: inline-block;
+    margin-left: 10px;
+
+}
+.list-item:first-child{
+    margin: 0;
+}
+.list{
+        padding: 0 1em;
+}
+.img{
+    height: 25em;
+    width: 25em;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 /* para que los textos se adapten a la pantalla */
 @media screen and (min-width: 768px) {
@@ -202,17 +230,19 @@ a{
   .categoria {
     padding: 4px 6px;
     font-size: 18px;
+    margin: 0 45px 20px 40px;
   }
 
   .porcentaje {
     font-size: 20px;
   }
+  .list-content,
   .titulo-mas,
   .tab-list-acc,
   .desc,
   .fu,
   .detalle,
   .funcion{
-    margin: 40px 40px;
+    margin: 0 45px 20px 40px;
   }
 }
