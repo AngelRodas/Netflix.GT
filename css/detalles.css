@@ -54,7 +54,7 @@ a{
     display: grid;
     grid-auto-flow: column;
     list-style: none;
-    color: #6e6e6e;
+    color: #4b0909;
 }
 .tab-list a{
     color: #6e6e6e;
@@ -74,6 +74,36 @@ a{
     fill: white;
     color: white;
 }
+/* Acciones */
+.tab-list-acc{
+    margin: 0;
+    padding: 0;
+    display:flex;
+    gap: 80px;
+    margin: 15px 15px;
+    grid-auto-flow: column;
+    list-style: none;
+    color: #6e6e6e;
+}
+.tab-accion a{
+    color: #6e6e6e;
+}
+.tab-accion{
+    text-align: center;
+    font-size: .9em;
+}
+.tab-accion path{
+    fill: white; 
+}
+.tab-accion svg{
+    display: block;
+    margin: auto;
+}
+.tab-accion:hover :is(path,span){
+    fill: #6e6e6e;
+    color: white;
+}
+
 .titulo{
   font-weight: bold; /* Para poner en negrita */
   font-size: 60px; 
@@ -120,7 +150,7 @@ a{
     gap: 10px;         
     font-size: 16px;
     font-weight: 600;
-      border: none;        
+    border: none;        
     cursor: pointer;
     padding: 12px 20px;
 }
@@ -137,6 +167,24 @@ a{
   margin-top: 10px;
   line-height: 1.4;
   margin: 15px 15px;
+}
+/* barrita roja que va  antes de mas simmilares */
+.titulo-mas {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin: 15px;
+}
+.barra-roja {
+  height: 4px;
+  width: 150px; 
+  background-color: red;
+  border-radius: 2px;
+}
+.mas{
+  font-size: 40px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
 }
 /* para que los textos se adapten a la pantalla */
 @media screen and (min-width: 768px) {
@@ -159,6 +207,8 @@ a{
   .porcentaje {
     font-size: 20px;
   }
+  .titulo-mas,
+  .tab-list-acc,
   .desc,
   .fu,
   .detalle,
