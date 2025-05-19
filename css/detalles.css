@@ -116,7 +116,7 @@ a{
 }
 .info{
     display: flex;
-    gap: 15px;
+    gap: 9px;
     color: #6e6e6e;
     position: relative;
     margin-left: 15px;
@@ -224,6 +224,7 @@ main{
   .info {
     font-size: 20px;
     margin-left: 40px;
+    gap: 15px;
   }
 
   .calidad,
