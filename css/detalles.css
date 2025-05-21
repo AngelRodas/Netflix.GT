@@ -214,6 +214,29 @@ main{
     flex-direction: column;
     gap: 20px;
 }
+.featured {
+  position: relative;
+  width: 100%;
+  height: auto; 
+}
+
+.silencio {
+  position: absolute;
+  bottom: 20px;  
+  right: 20px;    
+  background: #6e6e6e; 
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+.silencio img {
+  width: 20px;   /* Tamaño personalizado de tu ícono */
+  height: 20px;
+}
+
+
 /* para que los textos se adapten a la pantalla */
 @media screen and (min-width: 768px) {
   .titulo {

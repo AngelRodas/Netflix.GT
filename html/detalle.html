@@ -15,9 +15,11 @@
         </a>
     </header>
         <div class="featured">
-        <center>
-        <video  height="100%" width="100%" src="../img/YouTube - YouTube (1080p, h264).mp4"></video>
-    </center>
+        <video id="miVideo" autoplay muted loop  height="100%" width="100%" src="../img/YouTube - YouTube (1080p, h264).mp4"></video>
+        <div class="si">            <button class="silencio" onclick="toggleSound()">
+                <img  src="../img/346494.png" alt="">
+            </button>
+            </div>
     </div>
 
     <!-- titulo de la pelicula o serie -->
@@ -173,5 +175,7 @@
             </li>
         </ul>
     </footer>
+    <!-- sonido -->
+     <script src="../javascript/sonido.js"></script>
 </body>
 </html>
