@@ -116,7 +116,7 @@ a{
 }
 .info{
     display: flex;
-    gap: 9px;
+    gap: 5px;
     color: #6e6e6e;
     position: relative;
     margin-left: 15px;
